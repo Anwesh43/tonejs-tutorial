@@ -1,0 +1,28 @@
+.container {
+    display : flex;
+    justify-content: center;
+    padding : 20px;
+    background: green;
+}
+
+.musicKey {
+    width : 40px;
+    height : 200px;
+    border : 2px solid gray;
+}
+
+.even {
+    background : white;
+}
+
+.odd {
+    background : black;
+    height : 80px;
+    width : 30px;
+    margin-left: -20px;
+}
+
+.highlighted {
+    background : gray;
+    opacity : 0.8;
+}
